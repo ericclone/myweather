@@ -8,6 +8,8 @@ public class City {
 
     public City(String name) {
         this.name = name;
+        this.weather = "No Weather Data";
+        this.temperature = "N/A";
     }
 
     public String getName() {

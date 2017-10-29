@@ -24,7 +24,7 @@ public class CityList {
 
     private void createFakeCities(int n) {
         for (int i = 0; i < n; ++i) {
-            mCities.add(new City("City " + n));
+            mCities.add(new City("City " + i));
         }
     }
 
